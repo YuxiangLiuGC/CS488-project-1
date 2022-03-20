@@ -1,0 +1,29 @@
+Q2:
+Since the latency of L1, L2 and L3 are added to approximately 160ms, the latency would be around 160ms. 
+The path from h1 to h4 is linked from L1 to L3 and out of the three is minimized to 20Mbps. 
+
+Q3: 
+From h7 to h9, the average RTT is 161.777ms and throughput is 22.8 Mbits/sec.
+From h4 to h10, the average RTT is 162.089ms and throughput is 12.8 Mbits/sec.
+
+From h10 to h4, the average RTT is 161.833ms and throughput is 20.9 Mbits/sec.
+From h9 to h1, the average RTT is 161.873ms and throughput is 11.0 Mbits/sec.
+From h7 to h8, the average RTT is 161.810ms and throughput is 6.21 Mbits/sec.
+
+For all of the pairs of nodes, the paths from s1 to s4 would take around 160ms for latency, and the throughput would be 20 Mbits/sec.
+This is resulted from Latency which is calculated by the accumulated time from L1 to L3 whereas throughput is the minimum bandwidth between L1 to L3.
+From my predictions, for both two and three pairs are similarly by all of the average RTT and throughput for the first pairs.
+Although as the other pairs were communicating simultaneously, the throughput for each decreased. 
+It takes multiple signals and combining them into one, and this decrement in throughput happened is resulted from multiplexing
+The use of it enhanced the connection and reduced the time in communicating.
+
+Q4:
+
+From h1 to h4, the latency would be around 160 ms due to the accumulated latency from L1 to L3 is around 160ms.
+The throughput would be around 20 Mbits/sec since it depends on the minimal throughput between L1 to L4. 
+From h5 to h6, the latency would be approximately 45ms and the throughput would be around 20 Mbits/sec. 
+The throughput would be lower than the least throughput found between L2 and L5 resulted from multiplexing from the previous pair.
+Thus, h1 to h4 has an average RTT of 161.840ms and a throughput of 20.4 Mbits/sec.
+As for h5 to h6, its average RTT is 41.687ms and throughout is 22.6 Mbits/sec. 
+These measurements turn out to be pretty close to my prediction as well. 
+
